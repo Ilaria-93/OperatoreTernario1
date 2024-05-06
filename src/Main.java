@@ -31,9 +31,8 @@ public class Main {
     }
 
     private static String checkValue(int value) {
-        final String result = (value % 5 == 0)
+        return (value % 5 == 0)
                 ? "FizzBuzz"
                 : "Buzz";
-        return result;
     }
 }
